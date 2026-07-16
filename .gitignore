@@ -1,0 +1,23 @@
+# Local terraform state and caches - never commit these
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Plan output files
+tfplan
+*.tfplan
+
+# Variable files that may contain machine-specific overrides
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/
